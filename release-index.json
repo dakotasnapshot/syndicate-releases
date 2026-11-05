@@ -350,6 +350,41 @@
       "size": 188631032,
       "sha256": "f02df9f2a6c18ca1e07d6a624135bdac1028ee861b6e658ff6fa4c6e20006304",
       "url": "https://github.com/dakotasnapshot/syndicate-releases/releases/download/untagged-8ee1731ee350fec226c9/syn-messenger-0.1.9-full.nupkg"
+    },
+    {
+      "name": "Syndicate-0.1.11-Linux-x86_64.tar.gz",
+      "size": 169859868,
+      "sha256": "9d46e46420a70d34158d7c23ddca587d21d538afa6a13a76b4fe519b3558464c",
+      "tag": "desktop-v0.1.11",
+      "url": "https://github.com/dakotasnapshot/syndicate-releases/releases/download/desktop-v0.1.11/Syndicate-0.1.11-Linux-x86_64.tar.gz"
+    },
+    {
+      "name": "Syndicate-0.1.11-Linux-x86_64.deb",
+      "size": 137551228,
+      "sha256": "c78ba1e631055fc5ce6aa2f3aab4de7f87c9e6d45672d3a696c91d70afd255a0",
+      "tag": "desktop-v0.1.11",
+      "url": "https://github.com/dakotasnapshot/syndicate-releases/releases/download/desktop-v0.1.11/Syndicate-0.1.11-Linux-x86_64.deb"
+    },
+    {
+      "name": "syn-messenger-0.1.11-full.nupkg",
+      "size": 188797371,
+      "sha256": "c069b7e80ac812b6bc5e9252a719c643644104f609c572bc4c9351cc53d11637",
+      "tag": "desktop-v0.1.11",
+      "url": "https://github.com/dakotasnapshot/syndicate-releases/releases/download/desktop-v0.1.11/syn-messenger-0.1.11-full.nupkg"
+    },
+    {
+      "name": "Syndicate-0.1.11-Windows-x64.msi",
+      "size": 148656128,
+      "sha256": "1617d9beffe5a26bac47844ffa57bbeeb27a42da8845be50d97273983cac139e",
+      "tag": "desktop-v0.1.11",
+      "url": "https://github.com/dakotasnapshot/syndicate-releases/releases/download/desktop-v0.1.11/Syndicate-0.1.11-Windows-x64.msi"
+    },
+    {
+      "name": "Syndicate-Setup-0.1.11-Windows-x64.exe",
+      "size": 189675520,
+      "sha256": "e039dfb3c4fe24b61db1c824d57b34de7ccbe046bbe2750a8f6b7023cdd511fa",
+      "tag": "desktop-v0.1.11",
+      "url": "https://github.com/dakotasnapshot/syndicate-releases/releases/download/desktop-v0.1.11/Syndicate-Setup-0.1.11-Windows-x64.exe"
     }
   ]
 }
