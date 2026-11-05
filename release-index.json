@@ -1,0 +1,355 @@
+{
+  "repository": "dakotasnapshot/syndicate-releases",
+  "files": [
+    {
+      "name": "SYN-Messenger-0.1.0-macOS-universal.dmg",
+      "tag": "desktop-v0.1.0",
+      "size": 270276889,
+      "sha256": "4bb84adf9859139bb92945d18c66019c5aeb1bc3c7898bff6aa7cb2de2583a46",
+      "url": "https://github.com/dakotasnapshot/syndicate-releases/releases/download/untagged-c4b3924df37c6db3f1c4/SYN-Messenger-0.1.0-macOS-universal.dmg"
+    },
+    {
+      "name": "SYN-Messenger-0.1.1-macOS-universal.dmg",
+      "tag": "desktop-v0.1.1",
+      "size": 270272260,
+      "sha256": "b0d6665a55775bffe3365b34e65047a6e9d182e1304ba5a1f09a0f395163fd91",
+      "url": "https://github.com/dakotasnapshot/syndicate-releases/releases/download/untagged-2a87c91d4e85ef665961/SYN-Messenger-0.1.1-macOS-universal.dmg"
+    },
+    {
+      "name": "SYN-Messenger-0.1.2-macOS-universal.dmg",
+      "tag": "desktop-v0.1.2",
+      "size": 270274959,
+      "sha256": "0183a93578816ddcd2b6dc162bfa833c25211dac0c6c1b8cab6fe90552f48b50",
+      "url": "https://github.com/dakotasnapshot/syndicate-releases/releases/download/untagged-2ebaebe5ac17e83d7537/SYN-Messenger-0.1.2-macOS-universal.dmg"
+    },
+    {
+      "name": "SYN-Messenger-0.1.3-Linux-x86_64.deb",
+      "tag": "desktop-v0.1.3",
+      "size": 152490264,
+      "sha256": "9b79d967c09a6bbaf1d8387c80759c75e816932fedd7a862f6d4495d8f7ddd64",
+      "url": "https://github.com/dakotasnapshot/syndicate-releases/releases/download/untagged-ee00c52c2ff431fa4fd2/SYN-Messenger-0.1.3-Linux-x86_64.deb"
+    },
+    {
+      "name": "SYN-Messenger-0.1.3-Linux-x86_64.tar.gz",
+      "tag": "desktop-v0.1.3",
+      "size": 186163039,
+      "sha256": "de3b968c0f8c025d25fe6fc490088f603b1a3c7e3719ca08684a384a6ec826cc",
+      "url": "https://github.com/dakotasnapshot/syndicate-releases/releases/download/untagged-ee00c52c2ff431fa4fd2/SYN-Messenger-0.1.3-Linux-x86_64.tar.gz"
+    },
+    {
+      "name": "SYN-Messenger-0.1.3-Windows-x64.msi",
+      "tag": "desktop-v0.1.3",
+      "size": 117592064,
+      "sha256": "4453d8e112e9ef6b34f240e1855829fc2aeeeabf774300839ac7054bb38102a1",
+      "url": "https://github.com/dakotasnapshot/syndicate-releases/releases/download/untagged-ee00c52c2ff431fa4fd2/SYN-Messenger-0.1.3-Windows-x64.msi"
+    },
+    {
+      "name": "SYN-Messenger-0.1.3-macOS-universal.dmg",
+      "tag": "desktop-v0.1.3",
+      "size": 289660423,
+      "sha256": "9a41f5a2e3fcb8e548e4a88b2dcfa3c60b728de03b73f5536714e6efb521e831",
+      "url": "https://github.com/dakotasnapshot/syndicate-releases/releases/download/untagged-ee00c52c2ff431fa4fd2/SYN-Messenger-0.1.3-macOS-universal.dmg"
+    },
+    {
+      "name": "SYN-Messenger-0.1.4-macOS-universal.dmg",
+      "tag": "desktop-v0.1.4",
+      "size": 309009181,
+      "sha256": "6f849daef5182c478bf3fd190a6ac1faea9810824212c4c6f32bbc298b583e39",
+      "url": "https://github.com/dakotasnapshot/syndicate-releases/releases/download/untagged-c2103c94a3994c8fdb8d/SYN-Messenger-0.1.4-macOS-universal.dmg"
+    },
+    {
+      "name": "SYN-Messenger-Setup-0.1.3-Windows-x64.exe",
+      "tag": "desktop-v0.1.3",
+      "size": 150498816,
+      "sha256": "bf53d84f0c3f27a662d90d26854be78f843e4648618cd42acfe0f723c8f0b471",
+      "url": "https://github.com/dakotasnapshot/syndicate-releases/releases/download/untagged-ee00c52c2ff431fa4fd2/SYN-Messenger-Setup-0.1.3-Windows-x64.exe"
+    },
+    {
+      "name": "Syndicate-0.1.10-Linux-x86_64.deb",
+      "tag": "desktop-v0.1.10",
+      "size": 137549448,
+      "sha256": "6c3efbe86ee1da11267205f1f381f22c981c574876dd8bcc1b5240587874d688",
+      "url": "https://github.com/dakotasnapshot/syndicate-releases/releases/download/untagged-385afd478ae498830675/Syndicate-0.1.10-Linux-x86_64.deb"
+    },
+    {
+      "name": "Syndicate-0.1.10-Linux-x86_64.tar.gz",
+      "tag": "desktop-v0.1.10",
+      "size": 169694070,
+      "sha256": "772d0bcbde0bd8f27ebe15724d7e247c69d3ef9b887c1b90e51802864f8edeac",
+      "url": "https://github.com/dakotasnapshot/syndicate-releases/releases/download/untagged-385afd478ae498830675/Syndicate-0.1.10-Linux-x86_64.tar.gz"
+    },
+    {
+      "name": "Syndicate-0.1.10-Windows-x64.msi",
+      "tag": "desktop-v0.1.10",
+      "size": 148656128,
+      "sha256": "89060ce94a03742992f8a3295f7311a3646da462cd36de73c25910fb77fa297d",
+      "url": "https://github.com/dakotasnapshot/syndicate-releases/releases/download/untagged-385afd478ae498830675/Syndicate-0.1.10-Windows-x64.msi"
+    },
+    {
+      "name": "Syndicate-0.1.5-Linux-x86_64.deb",
+      "tag": "desktop-v0.1.5",
+      "size": 137621948,
+      "sha256": "182e723bc32b6d180e5790fe5bf2df8543b406dfb4fb77f7aa87ea78d39f8832",
+      "url": "https://github.com/dakotasnapshot/syndicate-releases/releases/download/untagged-d056cba492ccf6e87bd8/Syndicate-0.1.5-Linux-x86_64.deb"
+    },
+    {
+      "name": "Syndicate-0.1.5-Linux-x86_64.tar.gz",
+      "tag": "desktop-v0.1.5",
+      "size": 176737323,
+      "sha256": "a97a7db87741b357ea8c803045a6caac51de2277310089a303ecf2766f42e3d0",
+      "url": "https://github.com/dakotasnapshot/syndicate-releases/releases/download/untagged-d056cba492ccf6e87bd8/Syndicate-0.1.5-Linux-x86_64.tar.gz"
+    },
+    {
+      "name": "Syndicate-0.1.5-Windows-x64.msi",
+      "tag": "desktop-v0.1.5",
+      "size": 148635648,
+      "sha256": "6ffbd7aff213f2536382f28df6011d2c39e38a93dab21a763ab6e75e62c329cc",
+      "url": "https://github.com/dakotasnapshot/syndicate-releases/releases/download/untagged-d056cba492ccf6e87bd8/Syndicate-0.1.5-Windows-x64.msi"
+    },
+    {
+      "name": "Syndicate-0.1.5-build34.ipa",
+      "tag": "ios-0.1.5-build34",
+      "size": 133108991,
+      "sha256": "7b17df5d2764f6df5245859de5c22c0289ffb4aea1e3d0d2c70adaaa0129e24e",
+      "url": "https://github.com/dakotasnapshot/syndicate-releases/releases/download/untagged-3dc17034646f71c3811b/Syndicate-0.1.5-build34.ipa"
+    },
+    {
+      "name": "Syndicate-0.1.5-build36.ipa",
+      "tag": "ios-0.1.5-build36",
+      "size": 133110591,
+      "sha256": "4581119f8ae804e5d2787fa0e692562e0330c7bd24dd35ea511cc39dde310537",
+      "url": "https://github.com/dakotasnapshot/syndicate-releases/releases/download/untagged-5079becd433a170a3a7b/Syndicate-0.1.5-build36.ipa"
+    },
+    {
+      "name": "Syndicate-0.1.5-build43.ipa",
+      "tag": "ios-0.1.5-build43",
+      "size": 135061853,
+      "sha256": "fe99bc9f3ec94aa992567b4a7f1ab4a93fa75d4dc8e685e5eebe51943d57adcf",
+      "url": "https://github.com/dakotasnapshot/syndicate-releases/releases/download/untagged-a39936a4e30644533e88/Syndicate-0.1.5-build43.ipa"
+    },
+    {
+      "name": "Syndicate-0.1.5-build44.ipa",
+      "tag": "ios-0.1.5-build44",
+      "size": 135091595,
+      "sha256": "0b7643b1080d9115da1aa4c8c7a82bf1703a68058f8a3e3ecebd190f785c45eb",
+      "url": "https://github.com/dakotasnapshot/syndicate-releases/releases/download/untagged-f70ccdebf5185f34d5e4/Syndicate-0.1.5-build44.ipa"
+    },
+    {
+      "name": "Syndicate-0.1.5-macOS-universal.dmg",
+      "tag": "desktop-v0.1.5",
+      "size": 270261025,
+      "sha256": "40908d7705cbcc2af5cfe19429278d908a47a17fe9017c0e30ea8ddf9fc0c63a",
+      "url": "https://github.com/dakotasnapshot/syndicate-releases/releases/download/untagged-d056cba492ccf6e87bd8/Syndicate-0.1.5-macOS-universal.dmg"
+    },
+    {
+      "name": "Syndicate-0.1.6-macOS-universal.dmg",
+      "tag": "desktop-v0.1.6",
+      "size": 270273376,
+      "sha256": "fe5330846d06f9680f351ee66156cf28ddb92a66a0fd5e430f41d04729f543eb",
+      "url": "https://github.com/dakotasnapshot/syndicate-releases/releases/download/untagged-c6b7a81b10e042e9ac6b/Syndicate-0.1.6-macOS-universal.dmg"
+    },
+    {
+      "name": "Syndicate-0.1.7-macOS-universal.dmg",
+      "tag": "desktop-v0.1.7",
+      "size": 328345842,
+      "sha256": "15edda63b5a43b4383d5c2e494528f3a81bee312550adc8d465aac39979d967f",
+      "url": "https://github.com/dakotasnapshot/syndicate-releases/releases/download/untagged-281553cc3467d8462230/Syndicate-0.1.7-macOS-universal.dmg"
+    },
+    {
+      "name": "Syndicate-0.1.8-macOS-universal.dmg",
+      "tag": "desktop-v0.1.8",
+      "size": 354797394,
+      "sha256": "b43be02a17aeca768d90e50ac3f02263b2898f87db401887410eca665a9c4c24",
+      "url": "https://github.com/dakotasnapshot/syndicate-releases/releases/download/untagged-fc2a30438cad1dc8452a/Syndicate-0.1.8-macOS-universal.dmg"
+    },
+    {
+      "name": "Syndicate-0.1.9-Linux-x86_64.deb",
+      "tag": "desktop-v0.1.9",
+      "size": 137542192,
+      "sha256": "4cfce0f050797b4905403026ac96ca56d4f111553458753434f5ff4f63dfeac6",
+      "url": "https://github.com/dakotasnapshot/syndicate-releases/releases/download/untagged-8ee1731ee350fec226c9/Syndicate-0.1.9-Linux-x86_64.deb"
+    },
+    {
+      "name": "Syndicate-0.1.9-Linux-x86_64.tar.gz",
+      "tag": "desktop-v0.1.9",
+      "size": 169690118,
+      "sha256": "f5f49a98c4e7c943378ab4257029415c227c6f53a0949f67c14a51fb6868249a",
+      "url": "https://github.com/dakotasnapshot/syndicate-releases/releases/download/untagged-8ee1731ee350fec226c9/Syndicate-0.1.9-Linux-x86_64.tar.gz"
+    },
+    {
+      "name": "Syndicate-0.1.9-Windows-x64.msi",
+      "tag": "desktop-v0.1.9",
+      "size": 148656128,
+      "sha256": "4942056767a0e31f35b82255aaa3bc964c7d9f6459cdf418c790c973f1f09844",
+      "url": "https://github.com/dakotasnapshot/syndicate-releases/releases/download/untagged-8ee1731ee350fec226c9/Syndicate-0.1.9-Windows-x64.msi"
+    },
+    {
+      "name": "Syndicate-10.25.26-build45.ipa",
+      "tag": "ios-10.25.26-build45",
+      "size": 135127547,
+      "sha256": "60a9a64901a937a5f10459692798b4fcaf9f6055959e1fe67287c083c46a3e02",
+      "url": "https://github.com/dakotasnapshot/syndicate-releases/releases/download/untagged-eaebb71e94d39e24eb07/Syndicate-10.25.26-build45.ipa"
+    },
+    {
+      "name": "Syndicate-10.27.26-build46.ipa",
+      "tag": "ios-10.27.26-build46",
+      "size": 135148514,
+      "sha256": "4d1fb0fa18b079276835a4faf007511a3e5e9f0dcac0744c55beadca2f397592",
+      "url": "https://github.com/dakotasnapshot/syndicate-releases/releases/download/untagged-a0bd6f07c4d23ca30af9/Syndicate-10.27.26-build46.ipa"
+    },
+    {
+      "name": "Syndicate-10.27.26-build47.ipa",
+      "tag": "ios-10.27.26-build47",
+      "size": 135152070,
+      "sha256": "056ed16905ad4f9fbfe0692ab88bb81c7d35bd27d32dc000007130f407608c79",
+      "url": "https://github.com/dakotasnapshot/syndicate-releases/releases/download/untagged-b9da2ac9da222eed3e9c/Syndicate-10.27.26-build47.ipa"
+    },
+    {
+      "name": "Syndicate-Loader-0.1.0-mac-arm64.dmg",
+      "tag": "loader-v0.1.0",
+      "size": 137595054,
+      "sha256": "0054a4e779a55f66fc03ad7fd8d2ff4cc9de73f9f78d40292b0b1a1c956742d9",
+      "url": "https://github.com/dakotasnapshot/syndicate-releases/releases/download/untagged-fb0803ca918eeaa43e4b/Syndicate-Loader-0.1.0-mac-arm64.dmg"
+    },
+    {
+      "name": "Syndicate-Loader-0.1.1-mac-arm64.dmg",
+      "tag": "loader-v0.1.1",
+      "size": 137595555,
+      "sha256": "a500c4cf3e5358af23b0dee491ad2dda0d48eb063becd3e3e77430c3464746cb",
+      "url": "https://github.com/dakotasnapshot/syndicate-releases/releases/download/untagged-525232342bbd625a472f/Syndicate-Loader-0.1.1-mac-arm64.dmg"
+    },
+    {
+      "name": "Syndicate-Loader-0.1.2-mac-arm64.dmg",
+      "tag": "loader-v0.1.2",
+      "size": 138055265,
+      "sha256": "b5159805b09f03ec961e37138fafe2e775ef11eb5ecf5bb154e4fa0c2caf371d",
+      "url": "https://github.com/dakotasnapshot/syndicate-releases/releases/download/untagged-53ec6aa8b968e38f5fc3/Syndicate-Loader-0.1.2-mac-arm64.dmg"
+    },
+    {
+      "name": "Syndicate-Loader-0.1.3-mac-arm64.dmg",
+      "tag": "loader-v0.1.3",
+      "size": 138053244,
+      "sha256": "22de4f49a12d1b0a71b44b7b3645a7d157729a1eed7a24d1ff119950364a08ad",
+      "url": "https://github.com/dakotasnapshot/syndicate-releases/releases/download/untagged-d62f9302264373b9e7d4/Syndicate-Loader-0.1.3-mac-arm64.dmg"
+    },
+    {
+      "name": "Syndicate-Loader-0.1.4-mac-arm64.dmg",
+      "tag": "loader-v0.1.4",
+      "size": 138056022,
+      "sha256": "7a0a4f8eab8eeae0d36a1b113f0a7e1a5efccf6352bf3fd2b709ee62c33b034e",
+      "url": "https://github.com/dakotasnapshot/syndicate-releases/releases/download/untagged-decfaf6f48f0e3c7b08a/Syndicate-Loader-0.1.4-mac-arm64.dmg"
+    },
+    {
+      "name": "Syndicate-Loader-0.2.0-mac-arm64.dmg",
+      "tag": "loader-v0.2.0",
+      "size": 139047808,
+      "sha256": "589ae730d614bb9a6fd24f8afed38b9f3e63b37e6feaf88da124e9f386e96dc8",
+      "url": "https://github.com/dakotasnapshot/syndicate-releases/releases/download/untagged-55706e16f9b6aabcde3a/Syndicate-Loader-0.2.0-mac-arm64.dmg"
+    },
+    {
+      "name": "Syndicate-Loader-0.2.1-mac-arm64.dmg",
+      "tag": "loader-v0.2.1",
+      "size": 139043989,
+      "sha256": "dc944cc3a05afc5e1aae92affbdd927e5d8918a22432ef2cfa6658ebf79e999a",
+      "url": "https://github.com/dakotasnapshot/syndicate-releases/releases/download/untagged-acac138fe9cb377bbd14/Syndicate-Loader-0.2.1-mac-arm64.dmg"
+    },
+    {
+      "name": "Syndicate-Loader-0.2.2-mac-arm64.dmg",
+      "tag": "loader-v0.2.2",
+      "size": 137699002,
+      "sha256": "ee11db724fff77b28d64bea5c02734c65760e68fd930e98eb0bb65f81838b002",
+      "url": "https://github.com/dakotasnapshot/syndicate-releases/releases/download/untagged-d15647a78beea2af56d8/Syndicate-Loader-0.2.2-mac-arm64.dmg"
+    },
+    {
+      "name": "Syndicate-Setup-0.1.10-Windows-x64.exe",
+      "tag": "desktop-v0.1.10",
+      "size": 189512192,
+      "sha256": "a415e1bcdeb513fa25fb5c3c7e99a19d45fe3c9aca08abf2716a59a77f17ecad",
+      "url": "https://github.com/dakotasnapshot/syndicate-releases/releases/download/untagged-385afd478ae498830675/Syndicate-Setup-0.1.10-Windows-x64.exe"
+    },
+    {
+      "name": "Syndicate-Setup-0.1.5-Windows-x64.exe",
+      "tag": "desktop-v0.1.5",
+      "size": 189456896,
+      "sha256": "0846688ec5a9b65c0b119e9b74bca8e0029272dc28325f0f0939c24db5d5c8b2",
+      "url": "https://github.com/dakotasnapshot/syndicate-releases/releases/download/untagged-d056cba492ccf6e87bd8/Syndicate-Setup-0.1.5-Windows-x64.exe"
+    },
+    {
+      "name": "Syndicate-Setup-0.1.9-Windows-x64.exe",
+      "tag": "desktop-v0.1.9",
+      "size": 189509632,
+      "sha256": "56f472914b524570be3756e74491a92ad90081e3c0241ff6fe0b76fa03bd2a49",
+      "url": "https://github.com/dakotasnapshot/syndicate-releases/releases/download/untagged-8ee1731ee350fec226c9/Syndicate-Setup-0.1.9-Windows-x64.exe"
+    },
+    {
+      "name": "SYN-Messenger-0.1.1-macOS-universal.zip",
+      "tag": "desktop-v0.1.1",
+      "size": 270037582,
+      "sha256": "7d4085cb8de477a04c84b6e4bb3a1acb57c737d212475c9be8828be723b1e731",
+      "url": "https://github.com/dakotasnapshot/syndicate-releases/releases/download/untagged-2a87c91d4e85ef665961/SYN-Messenger-0.1.1-macOS-universal.zip"
+    },
+    {
+      "name": "SYN-Messenger-0.1.2-macOS-universal.zip",
+      "tag": "desktop-v0.1.2",
+      "size": 270037095,
+      "sha256": "9e2f91ae8c91c876f47cd2711c0b408e3a2b6497e15fb93e366142ca00cf63e8",
+      "url": "https://github.com/dakotasnapshot/syndicate-releases/releases/download/untagged-2ebaebe5ac17e83d7537/SYN-Messenger-0.1.2-macOS-universal.zip"
+    },
+    {
+      "name": "SYN-Messenger-0.1.3-macOS-universal.zip",
+      "tag": "desktop-v0.1.3",
+      "size": 289533271,
+      "sha256": "2847badfd5f79e9aa5205538307193fb4aaf905b236039c4c2b64f8a6d73f3f7",
+      "url": "https://github.com/dakotasnapshot/syndicate-releases/releases/download/untagged-ee00c52c2ff431fa4fd2/SYN-Messenger-0.1.3-macOS-universal.zip"
+    },
+    {
+      "name": "SYN-Messenger-0.1.4-macOS-universal.zip",
+      "tag": "desktop-v0.1.4",
+      "size": 309031864,
+      "sha256": "8a80b3511ae67a0302e5220addbc0c314cf1f93fa6434e81ca04bdc666bf4ec3",
+      "url": "https://github.com/dakotasnapshot/syndicate-releases/releases/download/untagged-c2103c94a3994c8fdb8d/SYN-Messenger-0.1.4-macOS-universal.zip"
+    },
+    {
+      "name": "Syndicate-0.1.5-macOS-universal.zip",
+      "tag": "desktop-v0.1.5",
+      "size": 268102915,
+      "sha256": "ff18d20a5f4418137479347c5be8c97e976ea2aca1a2a430d7f26ba4deff7ecb",
+      "url": "https://github.com/dakotasnapshot/syndicate-releases/releases/download/untagged-d056cba492ccf6e87bd8/Syndicate-0.1.5-macOS-universal.zip"
+    },
+    {
+      "name": "Syndicate-0.1.6-macOS-universal.zip",
+      "tag": "desktop-v0.1.6",
+      "size": 270025673,
+      "sha256": "b02d4c0502b62486510e55f80ee133b3ddb2faaa95bd582341306d9895f80ea5",
+      "url": "https://github.com/dakotasnapshot/syndicate-releases/releases/download/untagged-c6b7a81b10e042e9ac6b/Syndicate-0.1.6-macOS-universal.zip"
+    },
+    {
+      "name": "Syndicate-0.1.7-macOS-universal.zip",
+      "tag": "desktop-v0.1.7",
+      "size": 328519651,
+      "sha256": "d483c689fda509089a4805a2fdef895d323447bca9d834b11ef3517888bf81ed",
+      "url": "https://github.com/dakotasnapshot/syndicate-releases/releases/download/untagged-281553cc3467d8462230/Syndicate-0.1.7-macOS-universal.zip"
+    },
+    {
+      "name": "Syndicate-0.1.8-macOS-universal.zip",
+      "tag": "desktop-v0.1.8",
+      "size": 352935429,
+      "sha256": "06ca6efd4f4d5764147e953d6118b51177a077eac2732cbf8556258d8c16ad79",
+      "url": "https://github.com/dakotasnapshot/syndicate-releases/releases/download/untagged-fc2a30438cad1dc8452a/Syndicate-0.1.8-macOS-universal.zip"
+    },
+    {
+      "name": "syn-messenger-0.1.10-full.nupkg",
+      "tag": "desktop-v0.1.10",
+      "size": 188633331,
+      "sha256": "184f61928549b736286ab6b9de689e8b23db7031ba9eb69e3ae13880cc0b90e0",
+      "url": "https://github.com/dakotasnapshot/syndicate-releases/releases/download/untagged-385afd478ae498830675/syn-messenger-0.1.10-full.nupkg"
+    },
+    {
+      "name": "syn-messenger-0.1.9-full.nupkg",
+      "tag": "desktop-v0.1.9",
+      "size": 188631032,
+      "sha256": "f02df9f2a6c18ca1e07d6a624135bdac1028ee861b6e658ff6fa4c6e20006304",
+      "url": "https://github.com/dakotasnapshot/syndicate-releases/releases/download/untagged-8ee1731ee350fec226c9/syn-messenger-0.1.9-full.nupkg"
+    }
+  ]
+}

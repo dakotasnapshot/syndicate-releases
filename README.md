@@ -11,8 +11,12 @@ Each release includes `SHA256SUMS.txt` and `release-manifest.json` with artifact
 ## Sources and licensing
 
 - [Desktop / web source](https://github.com/dakotasnapshot/syn-messenger-desktop)
+- [iOS / Watch source](https://github.com/dakotasnapshot/syn-messenger-ios)
+- [Android source](https://github.com/dakotasnapshot/syn-messenger-android)
 - Source/build provenance recorded in release manifests where verified. Historical entries without verified provenance are identified as such, never presented as newly reproducible or attested builds.
 - Syndicate is an independent Matrix client based on Element. Upstream copyright/license notices remain with corresponding source and packages; applicable AGPL/GPL source obligations are unchanged.
+
+Release tags identify delivery records, not application source commits; consult each manifest for verified source provenance.
 
 The initial archive migration preserves exact existing public package bytes. It is not a rebuild or new build-provenance attestation. Public assets exclude credentials, signing private keys, provisioning material outside previously published signed application packages, private backups and rejected/staging builds.
 
@@ -25,3 +29,7 @@ Existing desktop updater endpoints remain compatible during migration. Older MSI
 ## Release verification
 
 Run `python3 scripts/verify-release.py TAG`. The verifier streams every manifest-listed public asset and checks its exact size/SHA-256. It never installs packages or uses account data. GitHub Actions repeats this verification for published releases and manual checks. This verifies delivered bytes, not application security, OS signing or build reproducibility.
+
+## Signed update channels
+
+`channels/stable/` publishes authenticated MSI/Linux envelopes for the next compatible desktop client. The public verification key is `RELEASE_PUBLIC_KEY.pem`; its private counterpart never belongs in this repository. Website-era0.1.10 clients must retain direct same-origin bridge installers before they can adopt GitHub-backed channels. Channel changes are mutable discovery metadata; package URLs, bytes and checksums are versioned and immutable by release policy.
