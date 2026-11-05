@@ -1,0 +1,18 @@
+{$SERVER_NAME} {
+    @admin path /_synapse/admin/*
+    handle @admin {
+        respond "Not found" 404
+    }
+    handle /.well-known/matrix/server {
+        header Content-Type application/json
+        respond `{"m.server":"{$SERVER_NAME}:443"}`
+    }
+    handle /.well-known/matrix/client {
+        header Content-Type application/json
+        header Access-Control-Allow-Origin *
+        respond `{"m.homeserver":{"base_url":"https://{$SERVER_NAME}"}}`
+    }
+    handle {
+        reverse_proxy synapse:8008
+    }
+}

@@ -1,0 +1,50 @@
+name: syndicate-homeserver
+services:
+  postgres:
+    image: postgres:16-alpine
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: synapse
+      POSTGRES_DB: synapse
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:?Generate .env first}
+      POSTGRES_INITDB_ARGS: --encoding=UTF8 --locale=C
+    volumes:
+      - database:/var/lib/postgresql/data
+    healthcheck:
+      test: [CMD-SHELL, 'pg_isready -U synapse -d synapse']
+      interval: 10s
+      timeout: 5s
+      retries: 10
+  synapse:
+    image: ghcr.io/element-hq/synapse:v1.164.2
+    restart: unless-stopped
+    depends_on:
+      postgres:
+        condition: service_healthy
+    environment:
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:?Generate .env first}
+      SERVER_NAME: ${SERVER_NAME:?Set your permanent server name}
+    ports:
+      - '127.0.0.1:8008:8008'
+    volumes:
+      - synapse:/data
+      - ./:/starter:ro
+  caddy:
+    image: caddy:2.11.9-alpine
+    restart: unless-stopped
+    depends_on: [synapse]
+    environment:
+      SERVER_NAME: ${SERVER_NAME:?Set your permanent server name}
+    ports:
+      - '80:80'
+      - '443:443'
+      - '443:443/udp'
+    volumes:
+      - ./Caddyfile:/etc/caddy/Caddyfile:ro
+      - certificates:/data
+      - caddy_config:/config
+volumes:
+  database:
+  synapse:
+  certificates:
+  caddy_config:

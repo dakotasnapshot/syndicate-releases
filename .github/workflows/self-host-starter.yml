@@ -1,0 +1,57 @@
+name: Verify clean Synapse starter
+on:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  fresh-server:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 15
+    defaults:
+      run:
+        working-directory: self-host/starter
+    steps:
+      - uses: actions/checkout@v4
+      - name: Initialize disposable generic server
+        run: |
+          set -euo pipefail
+          umask 077
+          printf 'SERVER_NAME=matrix.example.com\nPOSTGRES_PASSWORD=' > .env
+          python3 -c 'import secrets; print(secrets.token_hex(32))' >> .env
+          set -a; . ./.env; set +a
+          docker compose config --quiet
+          docker compose run --rm --no-deps -e SYNAPSE_SERVER_NAME="$SERVER_NAME" -e SYNAPSE_REPORT_STATS=no synapse generate
+          docker compose run --rm --no-deps --entrypoint python synapse /starter/configure.py
+          docker compose run --rm --no-deps --entrypoint caddy caddy validate --config /etc/caddy/Caddyfile
+          docker compose up -d postgres synapse
+          for i in $(seq 1 60); do
+            if curl -fsS http://127.0.0.1:8008/_matrix/client/versions > /tmp/versions.json; then break; fi
+            sleep 2
+          done
+          test -s /tmp/versions.json
+      - name: Create synthetic accounts, authenticate, and deactivate locally
+        run: |
+          set -euo pipefail
+          docker compose exec -T synapse register_new_matrix_user -a -u demo_admin -p 'synthetic-disposable-admin-only' -c /data/homeserver.yaml http://localhost:8008
+          docker compose exec -T synapse register_new_matrix_user --no-admin -u demo_user -p 'synthetic-disposable-user-only' -c /data/homeserver.yaml http://localhost:8008
+          printf '@demo_admin:matrix.example.com\nsynthetic-disposable-admin-only\n@demo_user:matrix.example.com\n@demo_user:matrix.example.com\n' | docker compose exec -T synapse python /starter/admin.py
+          docker compose exec -T synapse python -c 'import yaml; s=yaml.safe_load(open("/data/homeserver.yaml")); assert s["database"]["name"]=="psycopg2"; assert s["enable_registration"] is False; assert s["listeners"][0]["x_forwarded"] is True; print("PostgreSQL, closed registration, proxy configuration verified")'
+      - name: Verify backup commands and restore readability
+        run: |
+          set -euo pipefail
+          mkdir -m 700 backups
+          docker compose stop synapse
+          docker compose exec -T postgres pg_dump -U synapse -d synapse -Fc > backups/synapse.dump
+          docker compose run --rm --no-deps --entrypoint tar synapse -C /data -czf - . > backups/synapse-data.tar.gz
+          docker compose exec -T postgres pg_restore --list < backups/synapse.dump > /tmp/restore-list.txt
+          test -s /tmp/restore-list.txt
+          tar -tzf backups/synapse-data.tar.gz | grep -q homeserver.yaml
+          docker compose start synapse
+          echo 'Fresh configuration, PostgreSQL startup, admin creation, regular-user creation, local account deactivation, Caddy syntax and backup format readback PASS. Public DNS/TLS/federation and Kubernetes are not tested by this job.' > result.txt
+      - uses: actions/upload-artifact@v4
+        with:
+          name: starter-verification-result
+          path: self-host/starter/result.txt
+      - name: Dispose synthetic CI resources
+        if: always()
+        run: docker compose down -v
