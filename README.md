@@ -1,5 +1,7 @@
 # Syndicate Releases
 
+Maintained personally by [Dakota Cole (@dakotasnapshot)](https://github.com/dakotasnapshot).
+
 Official downloadable Syndicate packages are hosted as [GitHub Release assets](https://github.com/dakotasnapshot/syndicate-releases/releases). The product/download front end remains [synmessenger.com](https://synmessenger.com/downloads/).
 
 - `desktop-vVERSION`: desktop installers and native updater packages.
