@@ -30,7 +30,7 @@ services:
       - synapse:/data
       - ./:/starter:ro
   caddy:
-    image: caddy:2.11.9-alpine
+    image: caddy:2-alpine@sha256:f6228111e5fafa1a5238258d0858e103f10599b8d1659a146e7726681a002bb9
     restart: unless-stopped
     depends_on: [synapse]
     environment:

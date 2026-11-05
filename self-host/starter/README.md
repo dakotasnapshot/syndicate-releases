@@ -2,7 +2,7 @@
 
 Generic examples only. No accounts, tokens, private hostnames, signing keys or database snapshots included. Uses official upstream Synapse, PostgreSQL and Caddy containers; this is NOT a preconfigured Syndicate server image.
 
-Follow https://synmessenger.com/self-host/ for OS installation, initialization, DNS/TLS, users, backups, updates, and UpCloud VM/Kubernetes guidance. Current image versions at publication: Synapse1.164.2 / PostgreSQL16 / Caddy2.11.9. Review upstream security releases and pin exact image digests for reproducible production deployment.
+Follow https://synmessenger.com/self-host/ for OS installation, initialization, DNS/TLS, users, backups, updates, and UpCloud VM/Kubernetes guidance. Current image versions at publication: Synapse1.164.2 / PostgreSQL16 / Caddy2Alpine (digest pinned). Review upstream security releases and pin exact image digests for reproducible production deployment.
 
 1. Work in Bash (WSL2 Ubuntu on Windows). Docker Desktop must be running on Windows/macOS. On Linux use Docker Engine plus Compose plugin.
 2. Set your permanent SERVER_NAME in a private `.env`; generate a unique POSTGRES_PASSWORD. Never publish `.env`.
