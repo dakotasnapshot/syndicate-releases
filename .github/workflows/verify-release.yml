@@ -1,4 +1,5 @@
 name: Verify published release bytes
+run-name: Verify ${{ inputs.tag || github.event.release.tag_name }}
 on:
   release:
     types: [published]
