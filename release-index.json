@@ -385,6 +385,20 @@
       "sha256": "e039dfb3c4fe24b61db1c824d57b34de7ccbe046bbe2750a8f6b7023cdd511fa",
       "tag": "desktop-v0.1.11",
       "url": "https://github.com/dakotasnapshot/syndicate-releases/releases/download/desktop-v0.1.11/Syndicate-Setup-0.1.11-Windows-x64.exe"
+    },
+    {
+      "name": "Syndicate-0.1.12-macOS-universal.dmg",
+      "size": 483628880,
+      "sha256": "8ae9c68f8ba288536d3c685eed3c3f3546a9ce84ee1bdf8ac42140ab1a8e1427",
+      "tag": "desktop-v0.1.12",
+      "url": "https://github.com/dakotasnapshot/syndicate-releases/releases/download/desktop-v0.1.12/Syndicate-0.1.12-macOS-universal.dmg"
+    },
+    {
+      "name": "Syndicate-0.1.12-macOS-universal.zip",
+      "size": 415568130,
+      "sha256": "c269523fcbf49552dc4a8b7941a2ff57b02835d8f1527184f3d6b9412116e00f",
+      "tag": "desktop-v0.1.12",
+      "url": "https://github.com/dakotasnapshot/syndicate-releases/releases/download/desktop-v0.1.12/Syndicate-0.1.12-macOS-universal.zip"
     }
   ]
 }
