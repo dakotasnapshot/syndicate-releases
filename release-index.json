@@ -399,6 +399,20 @@
       "sha256": "c269523fcbf49552dc4a8b7941a2ff57b02835d8f1527184f3d6b9412116e00f",
       "tag": "desktop-v0.1.12",
       "url": "https://github.com/dakotasnapshot/syndicate-releases/releases/download/desktop-v0.1.12/Syndicate-0.1.12-macOS-universal.zip"
+    },
+    {
+      "name": "Syndicate-0.1.13-macOS-universal.dmg",
+      "size": 312250057,
+      "sha256": "ee5a18c0f3fc45829ede9ce9fe64e3f6495284ab4534f75d60c0f552f70637c4",
+      "tag": "desktop-v0.1.13",
+      "url": "https://github.com/dakotasnapshot/syndicate-releases/releases/download/desktop-v0.1.13/Syndicate-0.1.13-macOS-universal.dmg"
+    },
+    {
+      "name": "Syndicate-0.1.13-macOS-universal.zip",
+      "size": 276129658,
+      "sha256": "ce9b42694221b318364c11c8c5bbedae6ba325d20dbb1c7d7d06252b24da5595",
+      "tag": "desktop-v0.1.13",
+      "url": "https://github.com/dakotasnapshot/syndicate-releases/releases/download/desktop-v0.1.13/Syndicate-0.1.13-macOS-universal.zip"
     }
   ]
 }
