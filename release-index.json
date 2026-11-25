@@ -413,6 +413,62 @@
       "sha256": "ce9b42694221b318364c11c8c5bbedae6ba325d20dbb1c7d7d06252b24da5595",
       "tag": "desktop-v0.1.13",
       "url": "https://github.com/dakotasnapshot/syndicate-releases/releases/download/desktop-v0.1.13/Syndicate-0.1.13-macOS-universal.zip"
+    },
+    {
+      "name": "Syndicate-0.1.14-Linux-x86_64.deb",
+      "size": 137676700,
+      "sha256": "6d3f83168278f81871423fdb8b5a66ef53e42f8db648df2d985bfbb01eab3a22",
+      "tag": "desktop-v0.1.14",
+      "url": "https://github.com/dakotasnapshot/syndicate-releases/releases/download/desktop-v0.1.14/Syndicate-0.1.14-Linux-x86_64.deb"
+    },
+    {
+      "name": "Syndicate-0.1.14-Linux-x86_64.tar.gz",
+      "size": 169885052,
+      "sha256": "63c22d9dd0304e2b242bdba5b42d139aa6f4948cbc3849c92298c50ee2a11540",
+      "tag": "desktop-v0.1.14",
+      "url": "https://github.com/dakotasnapshot/syndicate-releases/releases/download/desktop-v0.1.14/Syndicate-0.1.14-Linux-x86_64.tar.gz"
+    },
+    {
+      "name": "Syndicate-0.1.14-Windows-x64.msi",
+      "size": 148701184,
+      "sha256": "d4f501b7a16fa1ea971abf30923d215395cf648f83a214e89db429a11e3a4895",
+      "tag": "desktop-v0.1.14",
+      "url": "https://github.com/dakotasnapshot/syndicate-releases/releases/download/desktop-v0.1.14/Syndicate-0.1.14-Windows-x64.msi"
+    },
+    {
+      "name": "Syndicate-Setup-0.1.14-Windows-x64.exe",
+      "size": 189706240,
+      "sha256": "149722a0d3f17a3189bbb063ad79821e714c4b8b14cc49c0cde8b1e3eceafb1e",
+      "tag": "desktop-v0.1.14",
+      "url": "https://github.com/dakotasnapshot/syndicate-releases/releases/download/desktop-v0.1.14/Syndicate-Setup-0.1.14-Windows-x64.exe"
+    },
+    {
+      "name": "syn-messenger-0.1.14-full.nupkg",
+      "size": 188827143,
+      "sha256": "3c18ed19640c8801d9e1ef958b5a7e41aaeaa63a8c1cddc5e2d40da22b9a536d",
+      "tag": "desktop-v0.1.14",
+      "url": "https://github.com/dakotasnapshot/syndicate-releases/releases/download/desktop-v0.1.14/syn-messenger-0.1.14-full.nupkg"
+    },
+    {
+      "name": "RELEASES",
+      "size": 85,
+      "sha256": "97e4a7a704138ffaa7c07f191d7cb99b75ea82ad757c61786e24a71d31b7a0a2",
+      "tag": "desktop-v0.1.14",
+      "url": "https://github.com/dakotasnapshot/syndicate-releases/releases/download/desktop-v0.1.14/RELEASES"
+    },
+    {
+      "name": "Syndicate-0.1.14-macOS-universal.dmg",
+      "size": 328325413,
+      "sha256": "95c41762f5d1928074be52070b793b47fdcdf07394f4355d811f9140ebd73bb0",
+      "tag": "desktop-v0.1.14",
+      "url": "https://github.com/dakotasnapshot/syndicate-releases/releases/download/desktop-v0.1.14/Syndicate-0.1.14-macOS-universal.dmg"
+    },
+    {
+      "name": "Syndicate-0.1.14-macOS-universal.zip",
+      "size": 288692952,
+      "sha256": "b59162c771f374954d0a77660bb901c90388360a27428eac64d7e51afd8e4240",
+      "tag": "desktop-v0.1.14",
+      "url": "https://github.com/dakotasnapshot/syndicate-releases/releases/download/desktop-v0.1.14/Syndicate-0.1.14-macOS-universal.zip"
     }
   ]
 }
